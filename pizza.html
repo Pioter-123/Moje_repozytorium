@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .pizza {
+        text-transform: uppercase;
+        font-size: 1.3em;
+        font-family: "Helvetica Neue";
+        padding-left: 200px;
+        }
+    a {
+        text-decoration: none;
+        color: black
+    }
+    .kolumny {
+	    width: 875px;
+	    margin: 0 auto;
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+        text-align: left;
+    }
+    .warzywa {
+        background-color: #ccff99;
+        color: black;
+        padding-right: 10px;
+
+    }
+    .mieso-sklad {
+        background-color: #ffcce6;
+        color: black;
+        padding-right: 10px;
+    }
+
+    .ser {
+        background-color: #ffff99;
+        color: black;
+        padding-right: 10px;
+    }
+    .hot {
+        background-color: black;
+        color: white;
+        padding-right: 10px;
+    }
+
+    .inne {
+        background-color: #ffb380;
+        color: black;
+        padding-right: 10px;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+    }
+    .header {
+        padding: 175px;
+        text-align: center;
+        background: #c41624;
+        color: white ;
+        outline: 3px dotted white;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.broilking.pl/files/blog/129/broil-king-pizza-z-grilla-d-b88c2458.jpg");
+        font-family: Monospace;
+    }
+    .header h1 {
+        font-size: 60px;
+    }
+    .navbar {
+        overflow: hidden;
+        background-color: gray;
+    }
+    .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 20px 30px;
+        text-decoration: none;
+        outline: 1px dotted white;
+    }
+    .navbar a.right {
+        float: right;
+    }
+    .navbar a:hover {
+        background-color: #993d46;
+        color: #8c7e35;
+    }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Pizzeria "POG"</h1>
+        <p><u>Najlepsza w mieście</u></p>
+      </div>
+    <div class="navbar">
+        <a href="pizza.html">Pizza</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#" class="right">Link</a>
+      </div>
+      <h1>WYSZUKAJ SWOJĄ PIZZĘ</h1>
+<div style="max-width: 800px;margin: 0 auto;">
+</div>
+<h2 >PANEL SKŁADNIKÓW</h2>
+<p class="center" style="line-height: 2;">W celu ułatwienia wyboru,<br> składniki podzielono na następujące grupy: <br><span style="background-color: #ccff99; padding: 5px 10px;">warzywa</span>  <span style="background-color: #ffcce6;padding: 5px 10px;">mięso</span>  <span style="background-color: #ffff99;padding: 5px 10px;">nabiał</span>  <span style="background-color: black; color: white;padding: 5px 10px;">ostre</span>  <span style="background-color: #ffb380;padding: 5px 10px;">inne</span></p>
+<br>
+<div class="kolumny">
+<div class="warzywa">
+<label ><input  type="checkbox" name="fl-1" value="z" autocomplete="off" /><span>pieczarki</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="0" autocomplete="off"/><span>ogórek</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="1" autocomplete="off"/><span>papryka</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="2" autocomplete="off"/><span>oliwki</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="3" autocomplete="off"/><span>kukurydza</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="4" autocomplete="off"/><span>cebula</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="5" autocomplete="off"/><span>brokuł</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="6" autocomplete="off" /><span>pomidor</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="7" autocomplete="off"/><span>szpinak</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="8" autocomplete="off"/><span>fasola</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="9" autocomplete="off"/><span>rukola</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="n" autocomplete="off" /><span>czosnek</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="%" autocomplete="off"/><span>kapary</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="^" autocomplete="off"/><span>ziemniaki</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="&" autocomplete="off"/><span>cukinia</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="*" autocomplete="off"/><span>bakłażan</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="-" autocomplete="off"/><span>karczoch</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="[" autocomplete="off"/><span>szparagi</span></label><br>
+</div>
+<div class="mieso-sklad">
+<label ><input  type="checkbox" name="fl-1" value="(" autocomplete="off"/><span>wołowina</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="}" autocomplete="off"/><span>wieprzowina</span></label><br>
+
+<label ><input  type="checkbox" name="fl-1" value="o" autocomplete="off"/><span>szynka</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="t" autocomplete="off" /><span>szynka parmeńska</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="w" autocomplete="off"/><span>kiełbasa</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="p" autocomplete="off"/><span>kurczak</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="q" autocomplete="off"/><span>salami</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="r" autocomplete="off"/><span>tuńczyk</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="s" autocomplete="off"/><span>boczek</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="u" autocomplete="off"/><span>owoce morza</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="#" autocomplete="off"/><span>kebab/gyros</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="+" /><span>łosoś</span></label><br>
+</div>
+<div class="ser">
+<label ><input  type="checkbox" name="fl-1" value="@" autocomplete="off"/><span>parmezan</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="g" autocomplete="off"/><span>lazur</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="h" autocomplete="off"/><span>ser pleśniowy</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="i" autocomplete="off"/><span>ser sałatkowy</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="j" autocomplete="off"/><span>mascarpone</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="k" autocomplete="off"/><span>feta</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="l" autocomplete="off"/><span>mozzarella</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="{" autocomplete="off"/><span>cheddar</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value=">" autocomplete="off"/><span>camembert</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="]" autocomplete="off"/><span>kozi ser</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="m" autocomplete="off"/><span>gorgonzolla</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="y" autocomplete="off"/><span>jajko</span></label><br>
+</div>
+<div class="hot">
+<label ><input  type="checkbox" name="fl-1" value="a" autocomplete="off"/><span>chilli</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="c" autocomplete="off"/><span>tabasco</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="d" autocomplete="off"/><span>jalapeno</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="e" autocomplete="off"/><span>pieprz</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="/" autocomplete="off"/><span>pepperoni</span></label><br>
+
+</div>
+<div class="inne">
+<label ><input  type="checkbox" name="fl-1" value="!" autocomplete="off"/><span>inne</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value=";" autocomplete="off"/><span>calzone</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="$" autocomplete="off"/><span>pesto</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="x" autocomplete="off"/><span>ananas</span></label><br>
+<label ><input  type="checkbox" name="fl-1" value="\" autocomplete="off"/><span>brzoskwinia</span></label><br>
+<p class="center"><a href="#wyniki" class="pokaz-menu" onclick="pizza()">Pokaż Pizze</a></p>
+<div class="tabela-wrap center font" style="margin-top: 20px; margin-bottom: 20px;">
+</div>
+</div>
+</div>
+    <div class="pizza">
+        <a href="margherita.html"><h4>1. Margherita</h4></a>
+        <div class="m-item__col m-item__col--secondary actions">
+            <button type="button" class="btn add-button js-add-to-cart-button" data-type="add-dish" data-dish-id="3160050" data-initialized="true">
+              <i class="icon-shopping-cart"></i> 21,00 zł
+              &nbsp;
+              <span style="" class="m-item__cart-count" data-cart-badge="{type: 'Dish', id: 3160050}">
+                <span class="m-item__badge m-item__badge--inside count">1</span>
+              </span>
+            </button>
+          </div>
+    </div><br>
+    <div class="pizza">
+        <a href="formaggio.html"><h4>2. Formaggio</h4></a>
+    </div><br>
+    <div class="pizza">
+        <a href="american.html"><h4>3. American</h4></a>
+    </div><br>
+    <div class="pizza">
+        <a href="hawai.html"><h4>4. Hawai</h4></a>
+    </div><br>
+    <div class="pizza">
+        <a href="pepperoni.html"><h4>5. Pepperoni</h4></a>
+    </div><br>
+    <div class="pizza">
+        <a href="wiejska.html"><h4>6. Wiejska</h4></a>
+    </div><br>
+    <div class="pizza">
+        <a href="mexicana.html"><h4>7. Mexicana</h4></a>
+    </div><br>
+    <div class="pizza">
+        <a href="domowa.html"><h4>8. Domowa</h4></a>
+    </div><br>
+    </div><div class="pizza">
+        <a href="spinacci.html"><h4>9. Spinacci</h4></a>
+    </div><br>
+    </div><div class="pizza">
+        <a href="piekielna.html"><h4>10. Piekielna</h4></a>
+    </div>
+</body>
+</html>
