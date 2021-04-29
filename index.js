@@ -52,7 +52,6 @@ class UI{
     }
     
     
-    
 }
 
 button_classic.addEventListener("click",(e)=>{
